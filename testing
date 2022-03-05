@@ -1,0 +1,5 @@
+#!/bin/python
+
+import subprocess
+
+print(subprocess.check_output(['brl','which','ls']))
